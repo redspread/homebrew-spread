@@ -3,7 +3,7 @@ class Spread < Formula
   homepage "https://redspread.com"
   url "https://github.com/redspread/spread/archive/0.0.3.tar.gz"
   version "0.0.3"
-  sha256 "6f453c52038636043735387b7ea31b2036468568d663cfb73893fbba09b66d34"
+  sha256 "e40df333863974241cd37cc5040a80faa5935f2d42434b8cd728bb889e5c2962"
 
   depends_on "go" => :build
 
