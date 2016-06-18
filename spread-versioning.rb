@@ -1,9 +1,9 @@
 class SpreadVersioning < Formula
   desc "Deploy Docker to Kubernetes in one command"
   homepage "http://redspread.com"
-  url "https://github.com/redspread/spread/archive/version-test.tar.gz"
-  version "0.1.6-versioning"
-  sha256 "e187e486926f97d4c71fcfb49a1dce3589d689b02103e550d3e6e7f8e9817d3a"
+  url "https://github.com/redspread/spread/archive/version-preview1.tar.gz"
+  version "0.1.6-versioning1"
+  sha256 "bf52817e9c16845175e8b53f6b19b6561710f3150bec09acfa5b88a25bed7927"
 
   depends_on "libgit2"
   depends_on "go" => :build 
