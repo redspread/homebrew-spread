@@ -14,7 +14,7 @@ class Spread < Formula
       system "cp", "-r", "cmd", "src/rsprd.com/spread/"
       system "cp", "-r", "cli", "src/rsprd.com/spread/"
       system "cp", "-r", "vendor/", "src"
-      system "go", "build", "rsprd.com/spread/cmd/spread", "-X", "main.Version=v1.0.0"
+      system "go", "build", "-X", "main.Version=v1.0.0", "rsprd.com/spread/cmd/spread"
       bin.install "spread"
   end
 
