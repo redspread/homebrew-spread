@@ -5,6 +5,7 @@ class Spread < Formula
   version "1.0.0"
   sha256 "cb3b56e2d274ba78bdfedf19d6f74876b6ea786fce7e01cb908e320b982869ec"
 
+  depends_on "pkg-config" => :run
   depends_on "go" => :build
 
   def install
